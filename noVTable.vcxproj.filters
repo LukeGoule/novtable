@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="shared">
+      <UniqueIdentifier>{78292017-b8d2-4475-b1c0-543df9d9ef61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk">
+      <UniqueIdentifier>{0adee46e-e0bd-4d85-abe5-00ad171e772f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk\Input">
+      <UniqueIdentifier>{55c82f17-5823-4481-b944-e17d22e29fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk\Maths">
+      <UniqueIdentifier>{247cfa7c-8ca7-482f-9d27-2c5e97dfc985}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\detours.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="detouredfunc.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="CInput.hpp">
+      <Filter>src\sdk\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC32.hpp">
+      <Filter>src\sdk\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="sdkdefs.hpp">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.hpp">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="qangle.hpp">
+      <Filter>src\sdk\Maths</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="detouredfunc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC32.cpp">
+      <Filter>src\sdk\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CInput.cpp">
+      <Filter>src\sdk\Input</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
