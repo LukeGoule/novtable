@@ -12,7 +12,7 @@ DetouredFunction<T>::DetouredFunction(T pFunc, std::string Pattern, std::string 
 	if (!m_poFunction)
 	{
 		throw std::runtime_error{ "m_poFunction == 0" };
-	}
+	} // test change for git !!
 }
 
 template <typename T>
